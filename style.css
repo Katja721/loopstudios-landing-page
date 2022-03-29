@@ -1,9 +1,26 @@
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+/* general */
+body {
+  margin: 0;
+  font-size: 15px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+ul {
+  list-style: none;
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  font-family: "Alata", sans-serif;
+  align-self: flex-start;
+  margin: 0rem 8rem;
 }
 
 /* header */
@@ -18,20 +35,36 @@ header {
   grid-template-areas:
     "logo_header . nav_header"
     "heading1 heading1 .";
+  background-image: url(./images/desktop/image-hero.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 4rem 0rem 20rem 0rem;
+  width: 100%;
 }
 
 .logo_header {
   grid-area: logo_header;
+  margin: 0rem 10rem;
 }
 
 .nav_header {
   grid-area: nav_header;
 }
-
+.nav_header li {
+  margin: 0rem 0rem 0rem 2rem;
+}
 .heading1 {
   grid-area: heading1;
+  border: solid 2px hsl(0, 0%, 100%);
+  padding: 1rem;
+  width: 93%;
+  margin: 4.5rem 10rem 0rem 10rem;
+  font-size: 4em;
 }
-
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+}
 /* section one */
 .section1 {
   display: grid;
@@ -103,34 +136,42 @@ header {
 
 .image2-1 {
   grid-area: image2-1;
+  background-image: url(./images/desktop/image-deep-earth.jpg);
 }
 
 .image2-2 {
   grid-area: image2-2;
+  background-image: url(./images/desktop/image-night-arcade.jpg);
 }
 
 .image2-3 {
   grid-area: image2-3;
+  background-image: url(./images/desktop/image-soccer-team.jpg);
 }
 
 .image2-4 {
   grid-area: image2-4;
+  background-image: url(./images/desktop/image-grid.jpg);
 }
 
 .image2-5 {
   grid-area: image2-5;
+  background-image: url(./images/desktop/image-from-above.jpg);
 }
 
 .image2-6 {
   grid-area: image2-6;
+  background-image: url(./images/desktop/image-pocket-borealis.jpg);
 }
 
 .image2-7 {
   grid-area: image2-7;
+  background-image: url(./images/desktop/image-curiosity.jpg);
 }
 
 .image2-8 {
   grid-area: image2-8;
+  background-image: url(./images/desktop/image-fisheye.jpg);
 }
 
 /* footer */
