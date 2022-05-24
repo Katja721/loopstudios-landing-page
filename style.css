@@ -444,13 +444,8 @@ ul.nav_footer {
     width: 100%;
   }
   .section2 {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.01fr 1fr 0.1fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
     justify-items: stretch;
     grid-template-areas:
       "heading3"
@@ -470,9 +465,6 @@ ul.nav_footer {
     grid-area: images;
   }
 
-  .button {
-    grid-area: button;
-  }
   .images {
     display: grid;
     grid-template-columns: 1fr;
@@ -480,7 +472,6 @@ ul.nav_footer {
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     gap: 0px 0px;
-    grid-auto-flow: row;
     justify-items: stretch;
     grid-template-areas:
       "element1"
@@ -605,6 +596,7 @@ ul.nav_footer {
     width: 50%;
   }
   .button {
+    grid-area: button;
     justify-self: center;
     margin: 0rem 0rem 0rem 0rem;
   }
@@ -671,13 +663,8 @@ ul.nav_footer {
     margin: 1.3rem 0rem 0rem 0rem;
   }
   .section2 {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.01fr 1fr 0.1fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
     justify-items: stretch;
     grid-template-areas:
       "heading3"
@@ -701,13 +688,11 @@ ul.nav_footer {
     grid-area: button;
   }
   .images {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     gap: 0px 0px;
-    grid-auto-flow: row;
     justify-items: center;
     grid-template-areas:
       "element1"
