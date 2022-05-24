@@ -85,6 +85,7 @@ h1 {
   gap: 0px 0px;
   grid-auto-flow: row;
   margin: 0rem 0rem 10rem 7rem;
+  grid-template-areas: "image2 image2 . " "image2 image2 text2";
 }
 
 .image2 {
@@ -163,21 +164,51 @@ button:hover {
 .images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 50px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "image2-1 image2-2 image2-3 image2-4"
-    "image2-5 image2-6 image2-7 image2-8";
+    "element1 element2 element3 element4"
+    "element5 element6 element7 element8";
   grid-area: images;
   font-size: 2em;
 }
 .images img:hover {
   filter: opacity(0.5);
 }
-.image2-1 {
-  grid-area: image2-1;
+.element1 {
+  grid-area: element1;
   height: 28rem;
+}
+.element2 {
+  grid-area: element2;
+  height: 28rem;
+}
+.element3 {
+  grid-area: element3;
+  height: 28rem;
+}
+.element4 {
+  grid-area: element4;
+  height: 28rem;
+}
+.element5 {
+  height: 28rem;
+  grid-area: element5;
+}
+.element6 {
+  grid-area: element6;
+  height: 28rem;
+}
+.element7 {
+  grid-area: element7;
+  height: 28rem;
+}
+.element8 {
+  grid-area: element8;
+  height: 28rem;
+}
+.image2-1 {
   color: hsl(0, 0%, 100%);
   font-family: "Josefin Sans", sans-serif;
 }
@@ -185,84 +216,70 @@ button:hover {
 .imageParagraph1 {
   padding: 18rem 5rem 0rem 3rem;
   position: relative;
-  top: -60rem;
+  top: -27rem;
 }
 .image2-2 {
-  grid-area: image2-2;
   color: hsl(0, 0%, 100%);
   font-family: "Josefin Sans", sans-serif;
-  height: 28rem;
 }
 .imageParagraph2 {
   padding: 18rem 5rem 0rem 3rem;
   position: relative;
-  top: -60rem;
+  top: -27rem;
 }
 .image2-3 {
-  grid-area: image2-3;
   color: hsl(0, 0%, 100%);
   font-family: "Josefin Sans", sans-serif;
-  height: 28rem;
 }
 .imageParagraph3 {
   padding: 18rem 5rem 0rem 3rem;
   position: relative;
-  top: -60rem;
+  top: -27rem;
 }
 .image2-4 {
-  grid-area: image2-4;
   color: hsl(0, 0%, 100%);
   font-family: "Josefin Sans", sans-serif;
-  height: 28rem;
 }
 .imageParagraph4 {
   padding: 18rem 5rem 0rem 3rem;
   position: relative;
-  top: -60rem;
+  top: -27rem;
 }
 .image2-5 {
-  grid-area: image2-5;
   color: hsl(0, 0%, 100%);
   font-family: "Josefin Sans", sans-serif;
-  height: 28rem;
 }
 .imageParagraph5 {
   padding: 18rem 5rem 0rem 2rem;
   position: relative;
-  top: -58rem;
+  top: -27rem;
 }
 .image2-6 {
-  grid-area: image2-6;
   color: hsl(0, 0%, 100%);
   font-family: "Josefin Sans", sans-serif;
-  height: 28rem;
 }
 .imageParagraph6 {
   padding: 18rem 5rem 0rem 3rem;
   position: relative;
-  top: -58rem;
+  top: -27rem;
 }
 .image2-7 {
-  grid-area: image2-7;
   color: hsl(0, 0%, 100%);
   font-family: "Josefin Sans", sans-serif;
-  height: 28rem;
 }
 .imageParagraph7 {
   padding: 18rem 5rem 0rem 3rem;
   position: relative;
-  top: -58rem;
+  top: -27rem;
 }
 .image2-8 {
-  grid-area: image2-8;
   color: hsl(0, 0%, 100%);
   font-family: "Josefin Sans", sans-serif;
-  height: 28rem;
 }
 .imageParagraph8 {
   padding: 18rem 5rem 0rem 3rem;
   position: relative;
-  top: -58rem;
+  top: -27rem;
 }
 /* footer */
 footer {
