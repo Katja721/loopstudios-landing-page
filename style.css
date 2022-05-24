@@ -483,110 +483,55 @@ ul.nav_footer {
       "element7"
       "element8";
   }
-
-  .element1 {
-    grid-area: element1;
+  .element1,
+  .element2,
+  .element3,
+  .element4,
+  .element5,
+  .element6,
+  .element7,
+  .element8 {
     height: 10rem;
     margin: -0.3rem 1rem;
+  }
+  .element1 {
+    grid-area: element1;
   }
 
   .element2 {
     grid-area: element2;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element3 {
     grid-area: element3;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element4 {
     grid-area: element4;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element5 {
     grid-area: element5;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element6 {
     grid-area: element6;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element7 {
     grid-area: element7;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element8 {
     grid-area: element8;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
-  .imageParagraph1 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph2 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph3 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph4 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 35%;
-  }
-  .imageParagraph5 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph6 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph7 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
+  .imageParagraph1,
+  .imageParagraph2,
+  .imageParagraph3,
+  .imageParagraph4,
+  .imageParagraph5,
+  .imageParagraph6,
+  .imageParagraph7,
   .imageParagraph8 {
     color: hsl(0, 0%, 100%);
 
@@ -595,6 +540,7 @@ ul.nav_footer {
     top: -25rem;
     width: 50%;
   }
+
   .button {
     grid-area: button;
     justify-self: center;
@@ -704,47 +650,42 @@ ul.nav_footer {
       "element7"
       "element8";
   }
-
-  .element1 {
-    grid-area: element1;
+  .element1,
+  .element2,
+  .element3,
+  .element4,
+  .element5,
+  .element6,
+  .element7 {
     height: 10rem;
     margin: -0.3rem 1rem;
+  }
+  .element1 {
+    grid-area: element1;
   }
 
   .element2 {
     grid-area: element2;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element3 {
     grid-area: element3;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element4 {
     grid-area: element4;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element5 {
     grid-area: element5;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element6 {
     grid-area: element6;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element7 {
     grid-area: element7;
-    height: 10rem;
-    margin: -0.3rem 1rem;
   }
 
   .element8 {
@@ -752,62 +693,13 @@ ul.nav_footer {
     height: 15rem;
     margin: -0.3rem 1rem;
   }
-  .imageParagraph1 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph2 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph3 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph4 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 35%;
-  }
-  .imageParagraph5 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph6 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
-  .imageParagraph7 {
-    color: hsl(0, 0%, 100%);
-
-    padding: 18rem 5rem 0rem 1rem;
-    position: relative;
-    top: -25rem;
-    width: 50%;
-  }
+  .imageParagraph1,
+  .imageParagraph2,
+  .imageParagraph3,
+  .imageParagraph4,
+  .imageParagraph5,
+  .imageParagraph6,
+  .imageParagraph7,
   .imageParagraph8 {
     color: hsl(0, 0%, 100%);
 
@@ -816,6 +708,7 @@ ul.nav_footer {
     top: -25rem;
     width: 50%;
   }
+
   .button {
     justify-self: center;
     margin: 2rem 0rem 0rem 0rem;
