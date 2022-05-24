@@ -18,8 +18,22 @@
     <!-- header -->
     <header class="header">
       <img src="./images/logo.svg" class="logo_header" />
-
-      <ul class="nav_header">
+      <div class="nav_header">
+        <img src="/images/icon-hamburger.svg" class="hamburger-icon" />
+        <div class="menu hidden">
+          <ul>
+            <li>
+              <img src="/images/logo.svg" class="logo-menu" />
+              <img src="/images/icon-close.svg" class="close-icon" />
+            </li>
+            <li>ABOUT</li>
+            <li>CAREERS</li>
+            <li>EVENTS</li>
+            <li>SUPPORT</li>
+          </ul>
+        </div>
+      </div>
+      <ul class="nav_header desktop">
         <li class="menuItem">
           About
           <div class="underline_about underline"></div>
@@ -51,6 +65,7 @@
       <!-- section one with part of image element behind text element -->
       <section class="section1">
         <img src="./images/desktop/image-interactive.jpg" class="image2" />
+        <img src="/images/mobile/image-interactive.jpg" class="image2-mobile" />
         <div class="text2">
           <h2 class="heading2">THE LEADER IN INTERACTIVE VR</h2>
           <p class="paragraph2">
@@ -72,6 +87,7 @@
               src="/images/desktop/image-deep-earth.jpg"
               class="image2-1 img"
             />
+            <img class="img-mobile" src="/images/mobile/image-deep-earth.jpg" />
             <p class="imageParagraph imageParagraph1">DEEP EARTH</p>
           </div>
           <div class="element2">
@@ -79,23 +95,34 @@
               src="/images/desktop/image-night-arcade.jpg"
               class="image2-2 img"
             />
+            <img
+              class="img-mobile"
+              src="/images/mobile/image-night-arcade.jpg"
+            />
             <p class="imageParagraph imageParagraph2">NIGHT ARCADE</p>
           </div>
           <div class="element3">
             <img
               src="/images/desktop/image-soccer-team.jpg"
               class="image2-3 img"
+            /><img
+              class="img-mobile"
+              src="/images/mobile/image-soccer-team.jpg"
             />
             <p class="imageParagraph imageParagraph3">SOCCER TEAM VR</p>
           </div>
           <div class="element4">
             <img src="/images/desktop/image-grid.jpg" class="image2-4 img" />
+            <img class="img-mobile" src="/images/mobile/image-grid.jpg" />
             <p class="imageParagraph imageParagraph4">THE GRID</p>
           </div>
           <div class="element5">
             <img
               src="/images/desktop/image-from-above.jpg"
               class="image2-5 img"
+            /><img
+              class="img-mobile"
+              src="/images/mobile/image-from-above.jpg"
             />
             <p class="imageParagraph imageParagraph5">FROM UP ABOVE VR</p>
           </div>
@@ -103,6 +130,9 @@
             <img
               src="/images/desktop/image-pocket-borealis.jpg"
               class="image2-6 img"
+            /><img
+              class="img-mobile"
+              src="/images/mobile/image-pocket-borealis.jpg"
             />
             <p class="imageParagraph imageParagraph6">POCKET BOREALIS</p>
           </div>
@@ -110,11 +140,15 @@
             <img
               src="/images/desktop/image-curiosity.jpg"
               class="image2-7 img"
+            /><img
+              class="img-mobile"
+              src="/images/mobile/image-curiosity.jpg"
             />
             <p class="imageParagraph imageParagraph7">THE CURIOSITY</p>
           </div>
           <div class="element8">
             <img src="/images/desktop/image-fisheye.jpg" class="image2-8 img" />
+            <img class="img-mobile" src="/images/mobile/image-fisheye.jpg" />
             <p class="imageParagraph imageParagraph8">MAKE IT FISHEYE</p>
           </div>
         </div>

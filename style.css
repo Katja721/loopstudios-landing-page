@@ -177,34 +177,50 @@ button:hover {
   filter: opacity(0.5);
 }
 .element1 {
+  font-family: "Josefin Sans", sans-serif;
+
   grid-area: element1;
   height: 28rem;
 }
 .element2 {
+  font-family: "Josefin Sans", sans-serif;
+
   grid-area: element2;
   height: 28rem;
 }
 .element3 {
+  font-family: "Josefin Sans", sans-serif;
+
   grid-area: element3;
   height: 28rem;
 }
 .element4 {
+  font-family: "Josefin Sans", sans-serif;
+
   grid-area: element4;
   height: 28rem;
 }
 .element5 {
+  font-family: "Josefin Sans", sans-serif;
+
   height: 28rem;
   grid-area: element5;
 }
 .element6 {
+  font-family: "Josefin Sans", sans-serif;
+
   grid-area: element6;
   height: 28rem;
 }
 .element7 {
+  font-family: "Josefin Sans", sans-serif;
+
   grid-area: element7;
   height: 28rem;
 }
 .element8 {
+  font-family: "Josefin Sans", sans-serif;
+
   grid-area: element8;
   height: 28rem;
 }
@@ -220,7 +236,6 @@ button:hover {
 }
 .image2-2 {
   color: hsl(0, 0%, 100%);
-  font-family: "Josefin Sans", sans-serif;
 }
 .imageParagraph2 {
   padding: 18rem 5rem 0rem 3rem;
@@ -332,4 +347,289 @@ ul.nav_footer {
   background-color: hsl(0, 0%, 100%);
   height: 2px;
   width: 50%;
+}
+.image2-mobile,
+.img-mobile,
+.hamburger-icon,
+.close-icon {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  header {
+    padding: 0;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(/images/mobile/image-hero.jpg);
+    background-size: cover;
+    grid-template-areas: "logo_header  nav_header" "heading1  heading1";
+    height: 35rem;
+  }
+  .close-icon {
+    position: absolute;
+    left: 19rem;
+    top: 3.3rem;
+    display: block;
+  }
+  .hamburger-icon {
+    display: block;
+    margin: 2rem;
+  }
+  .nav_header {
+    justify-self: end;
+  }
+  .logo_header {
+    margin: 2rem 1rem;
+    width: 8rem;
+  }
+  .desktop {
+    display: none;
+  }
+  .heading1 {
+    margin: 4rem 0.5rem;
+    width: 84%;
+    font-size: 3em;
+    height: fit-content;
+  }
+  .hidden {
+    display: none;
+  }
+  .nav_header ul {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    background-color: hsl(0, 0%, 0%);
+    display: block;
+    margin: 0;
+    padding: 0rem 7rem 11rem 4rem;
+    font-size: 2em;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+  }
+  .logo-menu {
+    margin: 1rem 0 7rem 0;
+  }
+  .nav_header li {
+    margin: 2rem 0;
+  }
+  .image2,
+  .img {
+    display: none;
+  }
+
+  .section1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "image2-mobile" "text2";
+    gap: 5px 0px;
+    margin: 5rem 2rem;
+    padding: 0;
+  }
+  .text2 {
+    grid-area: text2;
+    padding: 0;
+  }
+  .image2-mobile {
+    display: block;
+    width: 100%;
+    grid-area: image2-mobile;
+  }
+  .heading2 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+  .img-mobile {
+    display: unset;
+    width: 100%;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.01fr 1fr 0.1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: stretch;
+    grid-template-areas:
+      "heading3"
+      "images"
+      "button";
+    margin: 0;
+  }
+
+  .heading3 {
+    grid-area: heading3;
+    text-align: center;
+    font-size: 2.8em;
+    margin: 1.5rem;
+  }
+
+  .images {
+    grid-area: images;
+  }
+
+  .button {
+    grid-area: button;
+  }
+  .images {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: stretch;
+    grid-template-areas:
+      "element1"
+      "element2"
+      "element3"
+      "element4"
+      "element5"
+      "element6"
+      "element7"
+      "element8";
+  }
+
+  .element1 {
+    grid-area: element1;
+    height: 10rem;
+    margin: -0.3rem 1rem;
+  }
+
+  .element2 {
+    grid-area: element2;
+    height: 10rem;
+    margin: -0.3rem 1rem;
+  }
+
+  .element3 {
+    grid-area: element3;
+    height: 10rem;
+    margin: -0.3rem 1rem;
+  }
+
+  .element4 {
+    grid-area: element4;
+    height: 10rem;
+    margin: -0.3rem 1rem;
+  }
+
+  .element5 {
+    grid-area: element5;
+    height: 10rem;
+    margin: -0.3rem 1rem;
+  }
+
+  .element6 {
+    grid-area: element6;
+    height: 10rem;
+    margin: -0.3rem 1rem;
+  }
+
+  .element7 {
+    grid-area: element7;
+    height: 10rem;
+    margin: -0.3rem 1rem;
+  }
+
+  .element8 {
+    grid-area: element8;
+    height: 10rem;
+    margin: -0.3rem 1rem;
+  }
+  .imageParagraph1 {
+    color: hsl(0, 0%, 100%);
+
+    padding: 18rem 5rem 0rem 1rem;
+    position: relative;
+    top: -25rem;
+    width: 50%;
+  }
+  .imageParagraph2 {
+    color: hsl(0, 0%, 100%);
+
+    padding: 18rem 5rem 0rem 1rem;
+    position: relative;
+    top: -25rem;
+    width: 50%;
+  }
+  .imageParagraph3 {
+    color: hsl(0, 0%, 100%);
+
+    padding: 18rem 5rem 0rem 1rem;
+    position: relative;
+    top: -25rem;
+    width: 50%;
+  }
+  .imageParagraph4 {
+    color: hsl(0, 0%, 100%);
+
+    padding: 18rem 5rem 0rem 1rem;
+    position: relative;
+    top: -25rem;
+    width: 35%;
+  }
+  .imageParagraph5 {
+    color: hsl(0, 0%, 100%);
+
+    padding: 18rem 5rem 0rem 1rem;
+    position: relative;
+    top: -25rem;
+    width: 50%;
+  }
+  .imageParagraph6 {
+    color: hsl(0, 0%, 100%);
+
+    padding: 18rem 5rem 0rem 1rem;
+    position: relative;
+    top: -25rem;
+    width: 50%;
+  }
+  .imageParagraph7 {
+    color: hsl(0, 0%, 100%);
+
+    padding: 18rem 5rem 0rem 1rem;
+    position: relative;
+    top: -25rem;
+    width: 50%;
+  }
+  .imageParagraph8 {
+    color: hsl(0, 0%, 100%);
+
+    padding: 18rem 5rem 0rem 1rem;
+    position: relative;
+    top: -25rem;
+    width: 50%;
+  }
+  .button {
+    justify-self: center;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1.1fr 0.1fr 1fr;
+    grid-template-areas: "logo_footer" "nav_footer" "social" "copyright";
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .social {
+    justify-self: center;
+  }
+  .nav_footer {
+    display: flex;
+    justify-self: center;
+    padding: 0;
+    flex-direction: column;
+  }
+  .nav_footer li {
+    margin: 0 0 1.5rem 0;
+  }
+  .logo_footer {
+    margin: 0;
+    justify-self: center;
+  }
+  .copyright {
+    justify-self: center;
+  }
 }
