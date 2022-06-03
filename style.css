@@ -160,6 +160,7 @@ button {
 button:hover {
   background-color: hsl(0, 0%, 0%);
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 .images {
   display: grid;
@@ -313,7 +314,9 @@ footer {
   /* margin: -40rem 0rem 0rem 0rem; */
   padding: 2rem 6rem 2rem 2rem;
 }
-
+.icon:hover {
+  cursor: pointer;
+}
 .logo_footer {
   justify-self: start;
   grid-area: logo_footer;
